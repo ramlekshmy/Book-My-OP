@@ -1,0 +1,344 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardViewchild"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_4_dp"
+            android:layout_marginRight="@dimen/dimen_4_dp"
+            android:layout_marginTop="@dimen/dimen_4_dp"
+            android:orientation="vertical"
+            app:cardCornerRadius="@dimen/dimen_2_dp">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/one_sided_border"
+                android:orientation="vertical"
+                android:padding="@dimen/dimen_10_dp">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:padding="1dp">
+
+                        <ImageView
+                            android:id="@+id/classifieds_image"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_centerInParent="true"
+                            android:adjustViewBounds="true"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/childcare" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/tx"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:layout_weight="3"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dimen_5_dp"
+                            android:layout_weight="1"
+                            android:padding="3dp"
+                            android:text="Child Care" />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:padding="1dp">
+
+                        <ImageView
+                            android:id="@+id/imgchild"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_centerInParent="true"
+                            android:adjustViewBounds="true"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_navigate_next_black_24dp"
+                            tools:ignore="VectorDrawableCompat" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardViewChildCareDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_2_dp"
+            android:layout_marginRight="@dimen/dimen_2_dp"
+            android:layout_marginTop="@dimen/dimen_4_dp"
+            android:visibility="gone"
+            app:cardCornerRadius="@dimen/dimen_2_dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_2_dp"
+                android:layout_marginRight="@dimen/dimen_2_dp"
+                android:background="@drawable/one_sided_border"
+                android:orientation="vertical"
+                android:padding="@dimen/dimen_7_dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_4_dp"
+                    android:padding="@dimen/dimen_2_dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dimen_2_dp"
+                        android:layout_weight="1"
+                        android:padding="@dimen/dimen_2_dp"
+                        android:text="@string/childcaretips" />
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardViewfitness"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_4_dp"
+            android:layout_marginRight="@dimen/dimen_4_dp"
+            android:layout_marginTop="@dimen/dimen_4_dp"
+            android:orientation="vertical"
+            app:cardCornerRadius="@dimen/dimen_2_dp">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/one_sided_border"
+                android:orientation="vertical"
+                android:padding="@dimen/dimen_10_dp">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:padding="1dp">
+
+                        <ImageView
+                            android:id="@+id/fitness"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_centerInParent="true"
+                            android:adjustViewBounds="true"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/fitness" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:layout_weight="3"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dimen_5_dp"
+                            android:layout_weight="1"
+                            android:padding="3dp"
+                            android:text="Fitness" />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:padding="1dp">
+
+                        <ImageView
+                            android:id="@+id/imgfitness"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_centerInParent="true"
+                            android:adjustViewBounds="true"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_navigate_next_black_24dp"
+                            tools:ignore="VectorDrawableCompat" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardViewfitnessDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_2_dp"
+            android:layout_marginRight="@dimen/dimen_2_dp"
+            android:layout_marginTop="@dimen/dimen_4_dp"
+            android:visibility="gone"
+            app:cardCornerRadius="@dimen/dimen_2_dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_2_dp"
+                android:layout_marginRight="@dimen/dimen_2_dp"
+                android:background="@drawable/one_sided_border"
+                android:orientation="vertical"
+                android:padding="@dimen/dimen_7_dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_4_dp"
+                    android:padding="@dimen/dimen_2_dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dimen_2_dp"
+                        android:layout_weight="1"
+                        android:padding="@dimen/dimen_2_dp"
+                        android:text="@string/fitness" />
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardViewhairloss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_4_dp"
+            android:layout_marginRight="@dimen/dimen_4_dp"
+            android:layout_marginTop="@dimen/dimen_4_dp"
+            android:orientation="vertical"
+            app:cardCornerRadius="@dimen/dimen_2_dp">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/one_side_border_hairloss"
+                android:orientation="vertical"
+                android:padding="@dimen/dimen_10_dp">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:padding="1dp">
+
+                        <ImageView
+                            android:id="@+id/hairloss"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_centerInParent="true"
+                            android:adjustViewBounds="true"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/haircare" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:layout_weight="3"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dimen_5_dp"
+                            android:layout_weight="1"
+                            android:padding="3dp"
+                            android:text="Hair Care" />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:padding="1dp">
+
+                        <ImageView
+                            android:id="@+id/imghair"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_centerInParent="true"
+                            android:adjustViewBounds="true"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_navigate_next_hair_24dp"
+                            tools:ignore="VectorDrawableCompat" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardViewhaircareDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_2_dp"
+            android:layout_marginRight="@dimen/dimen_2_dp"
+            android:layout_marginTop="@dimen/dimen_4_dp"
+            android:visibility="gone"
+            app:cardCornerRadius="@dimen/dimen_2_dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_2_dp"
+                android:layout_marginRight="@dimen/dimen_2_dp"
+                android:background="@drawable/one_sided_border"
+                android:orientation="vertical"
+                android:padding="@dimen/dimen_7_dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_4_dp"
+                    android:padding="@dimen/dimen_2_dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dimen_2_dp"
+                        android:layout_weight="1"
+                        android:padding="@dimen/dimen_2_dp"
+                        android:text="@string/haircare" />
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

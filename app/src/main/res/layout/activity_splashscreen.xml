@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:layout_gravity="center"
+    android:id="@+id/layout"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/splash"
+        android:background="@drawable/launcher3" />
+
+    <TextView android:text="Book My OP" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="serif"
+
+        android:layout_centerHorizontal="true"
+        android:id="@+id/titletext"
+        android:textColor="?attr/colorPrimary"
+        android:scrollbarSize="@dimen/dimen_30_sp"
+        android:textStyle="normal|bold|italic"
+        android:textAlignment="center" />
+
+
+</LinearLayout>
+

@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "758545395196",
+    "firebase_url": "https://bookmyop-f6b4e.firebaseio.com",
+    "project_id": "bookmyop-f6b4e",
+    "storage_bucket": "bookmyop-f6b4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758545395196:android:5f2e7ea66df32121",
+        "android_client_info": {
+          "package_name": "com.carehack.ashikvarma.patientportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "758545395196-h05h1v86hpg6emrlgnean3crkim31jjt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.carehack.ashikvarma.patientportal",
+            "certificate_hash": "9bcc3aa2bf30cbfb6d9342486c0dc77a8f823f07"
+          }
+        },
+        {
+          "client_id": "758545395196-ighi2ar9qei6jq2vv45jiqk3t5rhcv6f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.carehack.ashikvarma.patientportal",
+            "certificate_hash": "542fc70fc22de37915d0a748ed313688b3a5b339"
+          }
+        },
+        {
+          "client_id": "758545395196-ujujtl4s10299b1j90dl19n76fimmcse.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.carehack.ashikvarma.patientportal",
+            "certificate_hash": "3cdfa5e0227075e11730d7def9b6645cdc147a13"
+          }
+        },
+        {
+          "client_id": "758545395196-i5gcgm71k3ecsokjk4020e8gfhvvuf9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJWDhV1PMKsY9Mzmv6eAnCxLwGLnF9QSw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "758545395196-i5gcgm71k3ecsokjk4020e8gfhvvuf9h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

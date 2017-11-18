@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/dimen_5_dp"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_5_dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_5_dp"
+            android:padding="@dimen/dimen_5_dp"
+            android:src="@drawable/clinic" />
+
+        <TextView
+            android:id="@+id/titletext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_10_dp"
+            android:clickable="false"
+            android:fontFamily="serif"
+            android:scrollbarSize="@dimen/dimen_30_sp"
+            android:text="Make your Appointment"
+            android:textAlignment="center"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="36sp"
+            android:textStyle="normal|bold|italic" />
+
+        <EditText
+            android:id="@+id/patientname"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="@dimen/dimen_6_dp"
+            android:background="@drawable/background"
+            android:ems="10"
+            android:hint="Your Name"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:minLines="1"
+            android:padding="@dimen/dimen_5_dp" />
+
+        <EditText
+            android:id="@+id/patientdate"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="@dimen/dimen_6_dp"
+            android:background="@drawable/background"
+            android:clickable="true"
+            android:editable="false"
+            android:ems="10"
+            android:focusable="false"
+            android:hint="Date"
+            android:inputType="date"
+            android:padding="@dimen/dimen_5_dp" />
+
+        <EditText
+            android:id="@+id/patientconcerns"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="@dimen/dimen_6_dp"
+            android:background="@drawable/background"
+            android:ems="10"
+            android:hint="Purpose"
+            android:inputType="textLongMessage"
+            android:padding="@dimen/dimen_5_dp" />
+
+        <EditText
+            android:id="@+id/doctorname"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="@dimen/dimen_6_dp"
+            android:background="@drawable/background"
+            android:editable="false"
+            android:gravity="center_vertical"
+            android:hint="Doctor Name"
+            android:inputType="text"
+            android:padding="@dimen/dimen_5_dp" />
+
+
+        <Button
+            android:id="@+id/submitbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/dimen_6_dp"
+            android:background="@drawable/button_bg"
+            android:elevation="@dimen/dimen_10_dp"
+            android:text="Book"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</RelativeLayout>
